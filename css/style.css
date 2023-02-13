@@ -1002,7 +1002,6 @@ input:focus {
     padding: 1.07rem 7.09rem;
   }
 
-
   .contact__promo-title {
     font-size: 1.5rem;
     padding: 2.778rem 0;
@@ -1302,28 +1301,13 @@ input:focus {
   }
 
   .customers__row {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .customers__row-col {
-    display: none;
-  }
-
-  .customers__row-col_active {
-    display: block;
-  }
-
-  .customers__sliders {
-    display: flex;
-    gap: 3.125rem;
-    justify-content: center;
-    margin-bottom: 2rem;
+    overflow-x: scroll;
+    justify-content: flex-start;
   }
 
   .customers__row-col_subtitle-text {
     font-size: 0.875rem;
+    width: 288px;
   }
 
   .customers__user {
